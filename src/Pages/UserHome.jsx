@@ -13,6 +13,7 @@ import {
   doc,
   getDocs,
   query,
+  serverTimestamp,
   updateDoc,
   where,
 } from "firebase/firestore";
@@ -33,6 +34,7 @@ const UserHome = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [count, setCount] = useState(0);
   const email = localStorage.getItem("email");
+  const timestamp = serverTimestamp();
   const [val, setVal] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [filter, setFilter] = useState("");
@@ -50,8 +52,8 @@ const UserHome = () => {
           ...doc.data(),
           id: doc.id,
         }));
-        const reversedData = data.reverse()
-        setVal(reversedData);
+        const sortedData = data.slice().sort((a, b) => b.timestamp - a.timestamp);
+        setVal(sortedData);
       } catch (error) {
         console.error("Error fetching todos:", error);
       } finally {
@@ -77,6 +79,7 @@ const UserHome = () => {
       completed: completed,
       favorite: favorite,
       email: email,
+      timestamp: timestamp,
     });
     setTitle("");
     setDescription("");
