@@ -50,7 +50,8 @@ const UserHome = () => {
           ...doc.data(),
           id: doc.id,
         }));
-        setVal(data.reverse());
+        const reversedData = data.reverse()
+        setVal(reversedData);
       } catch (error) {
         console.error("Error fetching todos:", error);
       } finally {
