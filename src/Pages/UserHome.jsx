@@ -36,7 +36,6 @@ const UserHome = () => {
   const [val, setVal] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [filter, setFilter] = useState("");
-  console.log("Email:", email);
 
   const value = collection(database, "todos");
 
