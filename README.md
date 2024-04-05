@@ -1,4 +1,4 @@
- **GROWTH.CX_TODO_TASK - A Todo Adding App**
+ **GROWTH.CX_TODO_TASK - A Todo App**
 
 **A Todo application built on React.js, Firebase and Tailwind CSS.**
 
