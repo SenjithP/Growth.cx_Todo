@@ -52,7 +52,9 @@ const UserHome = () => {
           ...doc.data(),
           id: doc.id,
         }));
-        const sortedData = data.slice().sort((a, b) => b.timestamp - a.timestamp);
+        const sortedData = data
+          .slice()
+          .sort((a, b) => b.timestamp - a.timestamp);
         setVal(sortedData);
       } catch (error) {
         console.error("Error fetching todos:", error);
@@ -203,7 +205,7 @@ const UserHome = () => {
                 <input
                   className="w-full shadow appearance-none border rounded py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   type="text"
-                  placeholder="Search with title"
+                  placeholder="Search Todos"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
