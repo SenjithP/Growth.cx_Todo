@@ -1,10 +1,10 @@
- **GROWTh.CX_TODO_TASK - A Todo Adding App**
+ **GROWTH.CX_TODO_TASK - A Todo Adding App**
 
 **A Todo application built on React.js, Firebase and Tailwind CSS.**
 
 **## Overview**
 
-GROWTh.CX_TODO_TASK offers a best user experience as to add Todos and marking it as completed, favorite and delete it. User can also Search and Filter based on different methods.
+GROWTH.CX_TODO_TASK offers a best user experience as to add Todos and marking it as completed, favorite and delete it. User can also Search and Filter based on different methods.
 
 **## Features**
 
@@ -51,6 +51,6 @@ GROWTh.CX_TODO_TASK offers a best user experience as to add Todos and marking it
 
 **## GitHub Repository**
 
-- GROWTh.CX_TODO_TASK GitHub: https://github.com/SenjithP/Growth.cx_Todo.git
+- GROWTH.CX_TODO_TASK GitHub: https://github.com/SenjithP/Growth.cx_Todo.git
 
-**Happy cloning and exploring GROWTh.CX_TODO_TASK!**
+**Happy cloning and exploring GROWTH.CX_TODO_TASK!**
