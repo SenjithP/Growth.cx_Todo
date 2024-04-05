@@ -1,8 +1,56 @@
-# React + Vite
+ **GROWTh.CX_TODO_TASK - A Todo Adding App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A Todo application built on React.js, Firebase and Tailwind CSS.**
 
-Currently, two official plugins are available:
+**## Overview**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+GROWTh.CX_TODO_TASK offers a best user experience as to add Todos and marking it as completed, favorite and delete it. User can also Search and Filter based on different methods.
+
+**## Features**
+
+**User Side**
+
+- User Google Registration / Login using Firebase 
+- Add Todos
+- Mark as Complete
+- Mark as Favorite
+- Mark as Delete
+- Search Todos
+- Filter Todos
+- User Logout
+
+**## Getting Started**
+
+**Installation:**
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SenjithP/Growth.cx_Todo.git
+   ```
+   
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+   
+3. Add .env files. (add your firebase config keys)
+
+**Running the Application:**
+
+1. Start the Application:
+
+   ```bash
+   npm run dev
+   ```
+
+**## Access Links**
+
+- Live Link: https://growth-cx-todo.vercel.app/
+
+**## GitHub Repository**
+
+- GROWTh.CX_TODO_TASK GitHub: https://github.com/SenjithP/Growth.cx_Todo.git
+
+**Happy cloning and exploring GROWTh.CX_TODO_TASK!**
