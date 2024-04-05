@@ -4,7 +4,7 @@
 
 **## Overview**
 
-GROWTH.CX_TODO_TASK offers a best user experience as to add Todos and marking it as completed, favorite and delete it. User can also Search and Filter based on different methods.
+GROWTH.CX_TODO_TASK offers a best user experience as to add Todos and marking it as completed, favourite and delete it. User can also Search and Filter based on different methods.
 
 **## Features**
 
@@ -13,7 +13,7 @@ GROWTH.CX_TODO_TASK offers a best user experience as to add Todos and marking it
 - User Google Registration / Login using Firebase 
 - Add Todos
 - Mark as Complete
-- Mark as Favorite
+- Mark as favourite
 - Mark as Delete
 - Search Todos
 - Filter Todos
